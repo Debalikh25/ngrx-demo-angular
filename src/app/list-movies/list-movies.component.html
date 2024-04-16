@@ -1,0 +1,10 @@
+ 
+
+ <h3>Movies List</h3>
+
+ <div *ngFor="let movie of movies$ | async">
+   
+     <h3>{{movie.title}}</h3>
+     <p>{{movie.body}}</p>
+        <hr>
+</div>
